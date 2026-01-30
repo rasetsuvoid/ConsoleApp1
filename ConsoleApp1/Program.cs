@@ -1,4 +1,6 @@
 ﻿// Clase static Console -- WriteLine method (parametros)
+using ConsoleApp1;
+
 Console.WriteLine("Hello, World!");
 //Console.ReadLine();
 
@@ -60,3 +62,28 @@ byte[] bytes = new byte[10];
 
 List<string> list2 = new List<string>();
 
+// Crear una instancia de la clase Animal
+
+// Instanciacion 
+// Objecto MiAnimal
+// Animal -> Tipo de dato
+// miAnimal -> Nombre del objecto
+// new -> palabra reservada para crear una instancia
+// Animal() -> Constructor de la clase Animal
+Animal miAnimal = new Animal();
+
+// Asignar valores a las propiedades del objeto miAnimal
+
+miAnimal.Nombre = "Firulais";
+miAnimal.Especie = "Perro";
+miAnimal.Edad = 5;
+
+// viajar entre clases con control + clic 
+
+// Llamar al metodo HacerSonido del objeto miAnimal
+
+miAnimal.HacerSonido();
+
+// Llamar al metodo ObtenerInformacion del objeto miAnimal
+
+string informacion = miAnimal.ObtenerInformacion();
