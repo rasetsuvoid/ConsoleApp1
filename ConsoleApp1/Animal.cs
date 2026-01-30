@@ -18,6 +18,7 @@ namespace ConsoleApp1
     public class Animal
     {
         // Constructor por defecto
+        // ctor
         public Animal() { }
 
         // Propiedad Nombre

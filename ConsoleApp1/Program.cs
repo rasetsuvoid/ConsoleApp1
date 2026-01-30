@@ -39,7 +39,7 @@ else
 // inicializacion: int i = 0
 // condicion: i < 10
 // incremento: i++ +1
-for (int i = 0; i < 10; i++)
+for (int i = 0; i < 1000; i++)
 {
     // Clase static Console -- WriteLine method (parametros)
     Console.WriteLine(i);
@@ -69,6 +69,7 @@ foreach (string item in list)
 {
     Console.WriteLine(item);
 }
+
 
 // tipos de datos.
 string miCadena = "Hola Mundo";
