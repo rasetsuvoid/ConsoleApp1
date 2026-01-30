@@ -22,12 +22,13 @@ else
 // condicion ? valorSiVerdadero : valorSiFalso
 string ternario = 1 > 2 ? "True" : "False";
 
+
 if (1 > 3)
 {
 
 }else if (1 > 4)
 {
-
+    Console.WriteLine("Else if");
 }
 else
 {
@@ -84,7 +85,7 @@ var numeroInferid2 = 10;
 
 byte[] bytes = new byte[10];
 
-List<string> list2 = new List<string>();
+List<int> list2 = new List<int>();
 
 // Crear una instancia de la clase Animal
 
