@@ -1,6 +1,7 @@
-﻿// Clase static Console -- WriteLine method (parametros)
+﻿
 using ConsoleApp1;
 
+// Clase static Console -- WriteLine method (parametros)
 Console.WriteLine("Hello, World!");
 //Console.ReadLine();
 
@@ -15,6 +16,10 @@ else
 
 }
 
+// típo de dato string
+// nombre de la variable: ternario
+// operador ternario
+// condicion ? valorSiVerdadero : valorSiFalso
 string ternario = 1 > 2 ? "True" : "False";
 
 if (1 > 3)
@@ -29,19 +34,37 @@ else
 
 }
 
-
+// for loop
+// variable de control: i
+// inicializacion: int i = 0
+// condicion: i < 10
+// incremento: i++ +1
 for (int i = 0; i < 10; i++)
 {
     // Clase static Console -- WriteLine method (parametros)
     Console.WriteLine(i);
 }
 
+// crear una lista de strings
+
+// List<T> -> clase generica
+// T -> tipo de dato generico
+// string -> tipo de dato especifico
+// list -> nombre de la variable
+// new -> palabra reservada para crear una instancia
+// List<string>() -> constructor de la clase List<T>
 List<string> list = new List<string>();
 
+// agregar elementos a la lista
 list.Add("Item 1");
 list.Add("Item 2");
+list.Add("Item 3");
 
 
+// recorrer la lista con foreach
+// foreach -> palabra reservada para recorrer colecciones
+// string item -> variable de control
+// in list -> coleccion a recorrer
 foreach (string item in list)
 {
     Console.WriteLine(item);
@@ -87,3 +110,5 @@ miAnimal.HacerSonido();
 // Llamar al metodo ObtenerInformacion del objeto miAnimal
 
 string informacion = miAnimal.ObtenerInformacion();
+
+Console.WriteLine(informacion);
